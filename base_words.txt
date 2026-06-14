@@ -127,6 +127,19 @@ Gutierrez
 mendoza
 Mendoza
 MENDOZA
+maipu
+Maipu
+guaymallen
+Guaymallen
+lasheras
+vendimia
+Vendimia
+bodega
+Bodega
+malbec
+Malbec
+acequia
+acequias
 
 # --- Argentina ---
 Argentina

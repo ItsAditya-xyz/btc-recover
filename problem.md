@@ -7,6 +7,9 @@ Today, i  believE the password may contain the word "wallet" (or its Spanish equ
 - Real birthday: 21-Nov-1969
 - Legal birthday (on official ID): 21-Dec-1969
 - Telegram: @Arielram
+- Emails: arielram69@hotmail.com (oldest - 69 is his personal number suffix), ariel.ram@gmail.com, arielram@gmail.com
+- City: likely Mendoza (supports Gutierrez Sport Club, a local Mendoza team)
+- Football teams: River Plate, Godoy Cruz, Gutierrez Sport Club
 - Profession: IT
 - Discovered Bitcoin via Google+ in 2013
 - No wife, no kids, no pets at the time of wallet creation
