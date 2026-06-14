@@ -109,6 +109,25 @@ guilli
 Wile
 wile
 
+# --- football teams (River Plate, Godoy Cruz, Gutierrez SC) ---
+river
+River
+riverplate
+RiverPlate
+godoy
+Godoy
+godoycruz
+GodoyCruz
+cruz
+Cruz
+gutierrez
+Gutierrez
+
+# --- city: Mendoza (likely where he lives - Gutierrez SC is from there) ---
+mendoza
+Mendoza
+MENDOZA
+
 # --- Argentina ---
 Argentina
 argentina
