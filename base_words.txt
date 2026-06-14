@@ -187,7 +187,17 @@ Colimba
 567
 678
 
-# --- dates (birthday: 21-Nov-1969) ---
+# --- dates (LEGAL birthday: 21-Dec-1969 - on his official ID) ---
+211269
+21121969
+2112
+1269
+diciembre
+Diciembre
+dic
+december
+
+# --- dates (real birthday: 21-Nov-1969) ---
 1969
 69
 21

@@ -3,7 +3,15 @@ Back in 2013, I created a Bitcoin Core wallet and encrypted it without giving it
 Over the course of that year, I  deposited small amounts of Bitcoin into it. When I  later wanted to cash out, I couldn't remember ever encrypting the wallet in the first place.
 
 
-Today, i  believE the password may contain the word "wallet" (or its Spanish equivalent, "billetera"). My name is Guillermo Ariel Ramirez, birthday 21-nov-1969, from Argentina.
+Today, i  believE the password may contain the word "wallet" (or its Spanish equivalent, "billetera"). My name is Guillermo Ariel Ramirez, from Argentina.
+- Real birthday: 21-Nov-1969
+- Legal birthday (on official ID): 21-Dec-1969
+- Telegram: @Arielram
+- Profession: IT
+- Discovered Bitcoin via Google+ in 2013
+- No wife, no kids, no pets at the time of wallet creation
+- Said the password is "simpler" than complex guesses — likely short, plain word + number
+- Possible city: Santa Rosa, La Pampa, Argentina
 
 Offline page for manual testing:
 
