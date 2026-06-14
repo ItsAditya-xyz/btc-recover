@@ -116,6 +116,43 @@ Gaucho
 albiceleste
 celeste
 
+# --- physical objects in his house when wallet was created ---
+habitacion
+Habitacion
+habitación
+cama
+Cama
+mesadeluz
+MesaDeLuz
+mesadeLuz
+mesadelus
+MesaDeLus
+mesaluz
+Mesaluz
+notebook
+Notebook
+vaso
+Vaso
+
+# --- Santa Rosa (likely his city, La Pampa, Argentina) ---
+santarosa
+SantaRosa
+santa
+Santa
+rosa
+Rosa
+lapampa
+LaPampa
+pampa
+Pampa
+
+# --- "mi" (my) prefix combos ---
+mibitcoin
+minotebook
+miwallet
+micuenta
+miclave
+
 # --- words from password survey (his actual words) ---
 pera
 Pera
