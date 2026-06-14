@@ -99,6 +99,42 @@ Get-Content FOUND.txt
 | `--procs` | all cores | Number of parallel worker processes |
 | `--selftest` | off | Run built-in correctness test and exit |
 
+## Recommended run strategy
+
+### Step 1 — `--big` (most targeted, ~5 hrs)
+
+Run this first. It uses everything known about the wallet owner — name, dates, Spanish money words, Bitcoin terms — and generates ~1M high-probability candidates. It is a strict superset of the plain targeted run, so there is no need to run both.
+
+```powershell
+python recover.py --hash hash.txt --words base_words.txt --big --tried tried_big.txt --meta tried_big_meta.json
+```
+
+Safe to stop and restart — already-tried words are skipped automatically via `tried_big.txt`.
+
+### Step 2 — Phase 2 wordlists (if Step 1 misses)
+
+Run this immediately after Step 1 finishes without a match. It runs four wordlists in order of relevance, stops the moment the password is found, and skips any phase that already completed on a previous run.
+
+```powershell
+.\run_phase2.ps1
+```
+
+| Phase | Wordlist | Candidates | Est. time |
+|-------|----------|-----------|-----------|
+| 2a | `spanish.txt` — 71k real Spanish words | 71,181 | ~16 min |
+| 2b | `rockyou_top75pct.txt` — top 75% most common | 59,184 | ~13 min |
+| 2c | `common_10k.txt` — universal top 10k | 10,000 | ~3 min |
+| 2d/2e | `rockyou_part1/2.txt` — full 14M list | 14,344,391 | ~54 hrs |
+
+> **Note:** Phases 2d/2e (full rockyou) take ~54 hrs on this machine. If Phases 2a–2c miss, consider a cloud GPU (RTX 3090 on Vast.ai ~$0.50/hr) running `hashcat -m 11300` instead — it completes the full rockyou in under an hour.
+
+### Why this order
+
+- **Step 1** is the highest-probability run — built entirely from personal context (name, birthday, location, Spanish vocabulary). If the password is something like `billetera2013`, `guille1969`, or `bitcoinpassword@2013`, it will be found here.
+- **Phase 2a** (Spanish dictionary) is next most likely for a Spanish-speaking user who used a real word as a base.
+- **Phases 2b–2c** (rockyou subsets) cast a wider net over real-world leaked passwords.
+- **Phases 2d–2e** (full rockyou) are the last CPU-based resort before escalating to a GPU.
+
 ## How it works
 
 Bitcoin Core encrypts the wallet master key with AES-256-CBC. The key/IV are derived from the passphrase + salt via iterated SHA-512:
