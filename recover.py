@@ -44,9 +44,16 @@ def check(pw):
 # ---------- candidate generation ----------
 LEET = str.maketrans({"a":"4","e":"3","i":"1","o":"0","s":"5",
                       "A":"4","E":"3","I":"1","O":"0","S":"5"})
+# z<->s swap: his own stated transformation ("cambio z por s o alreves")
+Z2S = str.maketrans({"z":"s","Z":"S"})
+S2Z = str.maketrans({"s":"z","S":"Z"})
 
 def word_forms(w):
     forms = {w, w.lower(), w.upper(), w.capitalize(), w.title(), w.swapcase()}
+    # z<->s swap: his stated transformation ("cambio z por s o alreves")
+    for f in list(forms):
+        forms.add(f.translate(Z2S))
+        forms.add(f.translate(S2Z))
     for f in list(forms):
         forms.add(f.translate(LEET))
     return forms
@@ -54,6 +61,8 @@ def word_forms(w):
 SUFFIXES = ["", "1","2","3","12","123","1234","12345","01","00","11",
             "21","69","13","2013","1969","211169","21111969","2111","1121",
             "2008","2009","2010","2011","2012","2014","2015","2016",
+            "5","6","7","8","56","67","78","567","678","5678",   # from survey
+            "231661","23166","2316",                              # from survey
             "!","!!","?",".","#","$","*","123!","2013!","1969!","21!",
             "_","-","2013.","69!","00!"]
 PREFIXES = ["", "!", "1", "0", "#"]

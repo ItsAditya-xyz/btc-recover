@@ -110,12 +110,39 @@ ARGENTINA
 buenosaires
 BuenosAires
 porteño
-porteño
 criollo
 gaucho
 Gaucho
 albiceleste
 celeste
+
+# --- words from password survey (his actual words) ---
+pera
+Pera
+durazno
+Durazno
+durasno
+Durasno
+luz
+Luz
+lus
+Lus
+asadera
+Asadera
+asaderas
+Asaderas
+azadera
+Azadera
+azaderas
+Azaderas
+colimba
+Colimba
+
+# --- number sequences from survey ---
+231661
+5678
+567
+678
 
 # --- dates (birthday: 21-Nov-1969) ---
 1969

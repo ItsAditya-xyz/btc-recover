@@ -16,5 +16,18 @@ this is the address that has my funds
 
 https://www.blockchain.com/es/explorer/addresses/btc/189JveWz2WP79oYU9Gq4NUfiurbiuNPUhn
 
+Password habits (from a 2013 survey filled out by the owner):
+- Uses uppercase: Yes
+- Uses numbers: Yes — specifically digits 5, 6, 7, 8 and the sequence 231661
+- Uses special characters: No (or doesn't remember)
+- Uses spaces: No
+- Password length: 7 to 15 characters
+- Words commonly used: pera, durazno, luz, lus, asadera, asaderas, colimba
+- Transformations applied:
+  - Capitalizes words (e.g. casa → Casa)
+  - Swaps z for s and vice versa (e.g. durazno → durasno, asadera → azadera)
+  - Converts to all lowercase
+- No other special character substitutions mentioned
+
 Password constraints (from that era's Bitcoin Core):
 When encrypting the wallet, Bitcoin Core suggested: "Use a password of ten or more random characters, or eight or more words." This was only a suggestion — the actual requirement was simply that the password be more than one character.
