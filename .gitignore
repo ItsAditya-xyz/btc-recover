@@ -1,0 +1,19 @@
+# recovery logs
+tried.txt
+tried_big.txt
+tried_meta.json
+tried_big_meta.json
+run.log
+run_big.log
+
+# result
+FOUND.txt
+
+# test artifacts
+test_rt.txt
+test_rt_words.txt
+
+# python
+__pycache__/
+*.pyc
+*.pyo

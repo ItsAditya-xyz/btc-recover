@@ -1,0 +1,7 @@
+123456
+password
+qwerty
+letmein
+hashcat
+dragon
+admin

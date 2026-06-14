@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:etherscan.io)",
+      "WebFetch(domain:www.oklink.com)",
+      "WebSearch",
+      "WebFetch(domain:hackmd.io)",
+      "WebFetch(domain:phalcon.blocksec.com)",
+      "WebFetch(domain:www.weex.com)",
+      "WebFetch(domain:ethtx.info)",
+      "WebFetch(domain:dashboard.tenderly.co)",
+      "WebFetch(domain:l2beat.com)"
+    ]
+  }
+}
