@@ -68,6 +68,12 @@ digitalcash
 digitalcurrency
 monedadigital
 
+# --- telegram handle ---
+arielram
+Arielram
+ArielRam
+ARIELRAM
+
 # --- name: Guillermo Ariel Ramirez ---
 Guillermo
 guillermo
