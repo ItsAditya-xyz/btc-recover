@@ -38,6 +38,9 @@ funds
 purse
 
 # --- bitcoin / crypto (2013 era terms) ---
+bitcoinpassword
+bitcoinwallet
+bitcoinkey
 bitcoin
 Bitcoin
 BITCOIN

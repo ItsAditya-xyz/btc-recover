@@ -1,3 +1,7 @@
+# original combined rockyou (too large for GitHub - use the split parts instead)
+wordlists/rockyou.txt
+wordlists/spanish_hunspell.dic
+
 # recovery logs
 tried.txt
 tried_big.txt
