@@ -229,8 +229,22 @@ yybju5678
 Yybju567
 yybju567
 
-# --- bitcointalk data leak confirms word+digit+word pattern (pera6luz) ---
-# --- extra fruits/words he may use beyond survey list ---
+# === DATA BREACH CONFIRMED (2026-06-15) ===
+# bitcointalk 2014: pera6luz  |  000webhost 2015: pera6luz
+# Pattern: word + digit_separator + word  (digits 5,6,7,8 and special chars @,%)
+# Confirmed separators: 5, 6, @, %     Confirmed suffix: *
+# New words from breach: limon, chocolate
+# Adobe 2013 hint: 'como se hace la comida' (how is food made?)
+# trello username: arielramirez16 (16 is a personal number)
+# Unknown site: arielram (uses own username as password)
+
+limon
+Limon
+limon
+chocolate
+Chocolate
+
+# --- extra Mendoza fruits/foods ---
 uva
 Uva
 damasco
@@ -247,6 +261,36 @@ banana
 Banana
 tomate
 Tomate
+
+# --- cooking/food words (Adobe 2013 hint: 'how food is made') ---
+asado
+Asado
+vino
+Vino
+cocina
+Cocina
+horno
+Horno
+parrilla
+Parrilla
+fuego
+Fuego
+sal
+aceite
+ajo
+carne
+Carne
+leche
+queso
+harina
+huevo
+Huevo
+comida
+Comida
+asando
+Asando
+cocinando
+Cocinando
 
 # --- dates (LEGAL birthday: 21-Dec-1969 - on his official ID) ---
 211269
