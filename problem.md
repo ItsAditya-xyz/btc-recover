@@ -42,3 +42,27 @@ Password habits (from a 2013 survey filled out by the owner):
 
 Password constraints (from that era's Bitcoin Core):
 When encrypting the wallet, Bitcoin Core suggested: "Use a password of ten or more random characters, or eight or more words." This was only a suggestion — the actual requirement was simply that the password be more than one character.
+
+=== CRITICAL NEW INTEL (2026-06-15) ===
+
+Bitcointalk account (created ~2014, 1 year after wallet):
+- Data leak reveals his bitcointalk password was: pera6luz
+- Pattern confirmed: [survey_word] + [single digit] + [survey_word]
+  - "pera" and "luz" are both in his survey word list
+  - "6" is one of his survey digits (5,6,7,8)
+  - All lowercase, no special characters
+- This is 8 characters — within his 7-15 range, matches the word+number+word structure
+
+Survey screenshot also reveals "Yybju576" in his "words commonly used" column (row 3, dated 11/28/2013 — same month as wallet creation era). This appears to be an actual password he reuses, not a dictionary word.
+
+Context: He was learning to setup the wallet by following a tutorial (likely on Google+). He set the password reflexively without deliberating — which is why he forgot he even encrypted it. The bitcointalk password suggests his go-to pattern at that time was [Spanish word] + [digit] + [Spanish word].
+
+The wallet password was set in 2013 (before the bitcointalk account in 2014). So possibilities:
+1. Same password: pera6luz (direct reuse)
+2. Same pattern with different words from his survey vocabulary
+3. Pattern with 231661 instead of single digit
+4. Pattern using "luz" + "pera" reversed
+5. "Yybju576" is a standalone reused password from that era
+
+Does NOT use names in passwords (confirmed).
+Password is NOT simpler than expected (earlier intel that it was simpler was wrong).

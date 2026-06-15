@@ -219,6 +219,35 @@ Colimba
 567
 678
 
+# --- Yybju576: appears in survey "words I use" column (11/28/2013, same era as wallet)
+# --- This may be an actual password he accidentally put in the words column
+Yybju576
+yybju576
+YYBJU576
+Yybju5678
+yybju5678
+Yybju567
+yybju567
+
+# --- bitcointalk data leak confirms word+digit+word pattern (pera6luz) ---
+# --- extra fruits/words he may use beyond survey list ---
+uva
+Uva
+damasco
+Damasco
+manzana
+Manzana
+ciruela
+Ciruela
+naranja
+Naranja
+sandia
+Sandia
+banana
+Banana
+tomate
+Tomate
+
 # --- dates (LEGAL birthday: 21-Dec-1969 - on his official ID) ---
 211269
 21121969
